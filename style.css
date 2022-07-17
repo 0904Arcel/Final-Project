@@ -1,0 +1,159 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background: rgb(1,1,1);
+    background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(228,28,28,1) 50%, rgba(255,255,255,0.87718837535014) 83%);
+    padding: 5px;
+    border-bottom-right-radius:300px;
+    box-shadow: 0 0 60px #00f2ff;
+    
+
+}
+.button{
+    position: absolute;
+    left: 1270px;
+    top: 50px;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    transition: 0.5s all;
+}
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(180,35,35,1) 100%);
+    position: relative;
+    margin-top: 800px;
+    padding-right: 25px;
+    height: 120px;
+    transition: 0.9s;
+    box-shadow: 0 0 30px #00f2ff;
+    
+}
+body{
+    margin: 0%;
+    background: rgb(102,34,34);
+    background: radial-gradient(circle, rgba(102,34,34,1) 14%, rgba(0,0,0,1) 97%);  
+    
+}
+img{
+    
+    transition: 0.9s all;
+    opacity: 50%;
+    
+}
+div.cover{
+    background: rgb(183,214,255);
+    background: linear-gradient(90deg, rgba(183,214,255,1) 0%, rgba(223,44,44,1) 28%, rgba(37,14,14,1) 100%);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px auto;
+    top: 100px;
+    left: 230px;
+    bottom: 100px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    transition: 0.9s;
+    box-shadow: -1px 0 20px #000000;
+    text-align: right;
+    display: flex;
+    border-right:12px groove #fff;
+    border-bottom:6px groove #fff;
+}
+div#first{
+    
+}
+div#second{
+   
+}
+div#third{
+   
+}
+div#fourth{
+   
+}
+div#fifth{
+    position: absolute;
+    top:90%;
+    transition: 0.9s;
+    width: 500px;
+    margin-left: 100px;
+
+}
+div#sixth{
+    transition: 0.9s;
+    position: relative;
+    border-radius: 20px;
+    
+    
+}
+hr{
+    padding-left: 10px;
+    height: 208px;
+    width: 10px;
+    margin-top: 0px;
+    transition: 0.9s;
+    border-radius: 20px;
+    background-color: darkred;
+    
+}
+button:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 20px red;
+}
+
+img:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+    z-index:2;
+    filter:drop-shadow(80%);
+    box-shadow: 0 0 30px rgb(255,0,0);
+}
+footer:hover{
+    text-decoration-color: purple;
+}
+div:hover{
+    transform: scale(0.9);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 37%, rgba(0,0,0,1) 97%);
+}
+div#first:hover{
+    box-shadow: 0 0 30px #00f2ff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 37%, rgba(0,0,0,1) 97%);
+}
+div#second:hover{
+    box-shadow: 0 0 30px #00f2ff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 37%, rgba(0,0,0,1) 97%);
+}
+div#third:hover{
+    box-shadow: 0 0 30px #00f2ff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 37%, rgba(0,0,0,1) 97%);
+}
+div#fourth:hover{
+    box-shadow: 0 0 30px #00f2ff;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 37%, rgba(0,0,0,1) 97%);
+}
+div#fifth:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(255,0,0);
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 42%, rgba(88,13,13,1) 100%);
+}
+div#sixth:hover{
+    Transform: scale(1.0);
+    
+}
+hr:hover{
+    background-color: #00f2ff;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #00f2ff;
+}
